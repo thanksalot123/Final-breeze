@@ -15,7 +15,7 @@ function geoFindMe() {
     function success(position) {
         const latitude  = position.coords.latitude;
         const longitude = position.coords.longitude;
-        fetch('http://localhost:3000/pollution?lattitude='+latitude+'&longitude='+longitude).then((response)=>{
+        fetch('/pollution?lattitude='+latitude+'&longitude='+longitude).then((response)=>{
         response.json().then((data)=>{
         
         if(data.error){
