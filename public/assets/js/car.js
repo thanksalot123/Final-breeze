@@ -1,4 +1,4 @@
-concole.log("connected!");
+console.log("connected!");
 var first = document.querySelector("#first")
 var second = document.getElementById("second")
 var button = document.getElementById("third")
