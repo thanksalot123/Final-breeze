@@ -1,0 +1,63 @@
+
+#one {
+  color: #00000;
+}
+
+#two {
+  color: #00000;
+}
+
+.container {
+  max-width: 700px;
+  box-shadow: 1px 1px 10px grey;
+  padding: 20px;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Baloo Thambi 2', cursive;
+  border-radius: 0px 5px 5px 0px;
+  border-left: 15px solid #1abc9c;
+}
+
+.input input{
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #1abc9c;
+  outline: none;
+  font-size: 20px;
+}
+
+#three{
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#third{
+  height: 35px;
+  width: 80px;
+  background: #16a085;
+  border: 2px solid #16a085;
+  border-radius: 5px;
+  color: white;
+  transition: 0.2s;
+  outline: none
+}
+#third:hover{
+  color: #16a085;
+  background: none;
+
+}
+
+#third:active{
+  color: white;
+  background: #16a085
+}
+
+#heading{
+  text-align: center;
+}
